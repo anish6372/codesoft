@@ -1,0 +1,106 @@
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://img.freepik.com/premium-vector/social-networks-dating-apps-vector-seamless-pattern_341076-469.jpg");
+
+}
+.Material-Icons {
+  
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Material Icons';
+    
+  }
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+   
+}
+
+.chat-header {
+    background-color:rgb(81,169,133);
+    color: #000000;
+    padding: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.chat-header img{
+    height: 120px;
+    width: 130px;
+}
+
+.chat-room {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    
+}
+
+.chat-messages {
+padding: 10px;
+    
+}
+
+.message {
+    max-width: 80%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+ 
+}
+
+.message p {
+    margin: 0;
+}
+
+.sent {
+    background-color:rgb(124,154,242);
+    color: #000000;
+    align-self: flex-end;
+}
+
+.received {
+    background-color: #ccc;
+    color: #000;
+    align-self: flex-start;
+}
+
+.chat-input {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    /* border-top: 1px solid #e85252; */
+    /* border: solid black 2px; */
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(125, 209, 174);
+    margin-left: 10px;
+    
+}
+
+.chat-input button {
+    /* background-color:rgb(210, 99, 91); */
+    color: #030202;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
